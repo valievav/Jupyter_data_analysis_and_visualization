@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01be3e5d1140404d83279a1273ed0eed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+             <h5 align="center" style="font-size:20px"><b>Ports in United States</b></h5>
+             
+    
+            <div class="folium-map" id="map_01be3e5d1140404d83279a1273ed0eed" ></div>
+        
+</body>
+<script>    
+    
+            var map_01be3e5d1140404d83279a1273ed0eed = L.map(
+                "map_01be3e5d1140404d83279a1273ed0eed",
+                {
+                    center: [10.0, -90.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    tile: "cartodbpositron",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f1aa4825f594f61b6bd62630ea0f45b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            var circle_marker_5dcf9754b0e84ad5a6017c7dba4a47f2 = L.circleMarker(
+                [40.706322, -74.00264],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_5dcf9754b0e84ad5a6017c7dba4a47f2.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: South street seaport, new york city, ny, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9296914ce3b2441bb60921e34cece20a = L.circleMarker(
+                [47.633301, -122.379654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_9296914ce3b2441bb60921e34cece20a.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Seattle smith cove cruise terminal 91, seattle, wa, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e1de0a0613bb491081517746fe8eb91a = L.circleMarker(
+                [28.410351000000002, -80.618813],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_e1de0a0613bb491081517746fe8eb91a.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port canaveral, cape canaveral, fl, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8bfd658e26384a85a91a41e55a2fdcbd = L.circleMarker(
+                [29.944532000000002, -90.06179],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_8bfd658e26384a85a91a41e55a2fdcbd.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port nola cruise ship terminal, new orleans, la, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b897e9fb5022481a899395faf5e7dec0 = L.circleMarker(
+                [25.778803, -80.177994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_b897e9fb5022481a899395faf5e7dec0.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port miami cruise terminal, miami, fl, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0f399eada9d64fa0b4c66ae0d3215203 = L.circleMarker(
+                [27.945422999999998, -82.444099],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_0f399eada9d64fa0b4c66ae0d3215203.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port tampa bay cruise ship terminal, tampa, fl, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6352ab9e51864586900c076ad4adb2fe = L.circleMarker(
+                [49.288826, -123.111122],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_6352ab9e51864586900c076ad4adb2fe.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Vancouver cruise ship terminal, vancouver, bc, canada, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2de7db9a732a45a38bfe733bb95c941f = L.circleMarker(
+                [33.751305, -118.18881200000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_2de7db9a732a45a38bfe733bb95c941f.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Long beach cruise terminal, long beach, ca, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4452feb777b040bea7925ac2859ec5db = L.circleMarker(
+                [30.40715, -81.579475],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_4452feb777b040bea7925ac2859ec5db.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Jaxport cruise terminal, jacksonville, fl, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a900410455647fd977ce8f7c9edf14c = L.circleMarker(
+                [26.085421, -80.117775],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_0a900410455647fd977ce8f7c9edf14c.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port everglades cruise ship terminal, fort lauderdale, fl, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_285f5d6cb1f5471f9d4c82b6fd4e816d = L.circleMarker(
+                [32.787440999999994, -79.92469799999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_285f5d6cb1f5471f9d4c82b6fd4e816d.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Charleston cruise ship terminal, charleston, sc, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_09f84091f2974f1f9a5ada5155498471 = L.circleMarker(
+                [42.343651, -71.03302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_09f84091f2974f1f9a5ada5155498471.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Raymond l. flynn black falcon cruise terminal, boston, md, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d33915b193d41639c19919690c73f43 = L.circleMarker(
+                [40.664871000000005, -74.072571],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_0d33915b193d41639c19919690c73f43.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port jersey, bayonne, nj, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2bda0f514e6f478fb703bb128032739a = L.circleMarker(
+                [39.264969, -76.59863299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_2bda0f514e6f478fb703bb128032739a.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Baltimore port, baltimore, md, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_741f0cdc7c2c410a96f99254d81ac0a2 = L.circleMarker(
+                [34.151909, -119.20876299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_741f0cdc7c2c410a96f99254d81ac0a2.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port of hueneme, port hueneme, ca, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ea39bb906e254283869225439d70fe56 = L.circleMarker(
+                [41.892654, -87.610168],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_ea39bb906e254283869225439d70fe56.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Navy pier terminal, chicago, il, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4f4c68889710482a801b6347542c5110 = L.circleMarker(
+                [42.364506, -71.038887],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_4f4c68889710482a801b6347542c5110.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Port of boston, boston, ma, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8eedbbf8a336482c8f26b4968cde7bf7 = L.circleMarker(
+                [25.778135, -80.1791],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_8eedbbf8a336482c8f26b4968cde7bf7.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Miami dade county seaport, fl, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d528af0ccb6d434d8dced3a604ee1f54 = L.circleMarker(
+                [39.275321999999996, -76.588181],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_01be3e5d1140404d83279a1273ed0eed);
+        
+    
+            circle_marker_d528af0ccb6d434d8dced3a604ee1f54.bindTooltip(
+                `<div>
+                     <strong>Port</strong>: Helen delich bentley port of baltimore, usa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
